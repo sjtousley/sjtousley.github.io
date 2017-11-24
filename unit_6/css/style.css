@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', Sans-Serif;
+	color: #333333;
+}
+
+.wrapper {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+a {
+	color: #4CB8C4;
+}
+
+/*Start Nav*/
+
+header {
+	/*background-color: purple;*/
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	left: 1em;
+	transform: translateY(-50%);
+}
+
+nav {
+	/*background-color: red;*/
+	float: right;
+}
+
+nav a {
+	/*background-color: orange;*/
+	text-decoration: none;
+	font-weight: 300;
+	display: inline-block;
+	color: #333333;
+	font-size: 1.5em;
+	padding: 1.5em;
+}
+
+nav a:hover {
+	color: #4CB8C4;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/*Start Hero*/
+
+#hero {
+	/*background-color: yellow;*/
+	margin-top: 3em;
+}
+
+#hero-image {
+	width: 50%;
+	float: left;
+}
+
+#hero-text {
+	width: 50%;
+	float: left;
+}
+
+#hero-text h2 {
+	/*background-color: red;*/
+	font-size: 3.75em;
+	margin-top: 1em;
+	font-weight: 700;
+}
+
+#hero-text h3 {
+	/*background-color: pink;	WHY DOES THIS PINK LINE GO DOWN TO THE CTA?*/
+	font-size: 1.875em;
+	font-weight: 300;
+	margin: 1em 0;
+}
+
+.cta {
+	display: block;	
+	font-weight: 300;
+	background-color: #4CB8C4;
+	text-decoration: none;
+	padding: 0.75em;
+	color: #FFFFFF;
+	font-weight: 700;
+	max-width: 255px;
+	border-radius: 0.5em;
+
+}
+
+/*Start Social Proof bar*/
+
+#social-proof-bar {
+	background-color: #f3f3f4;
+}
+
+#social-proof-bar img {
+	display: block;
+}
