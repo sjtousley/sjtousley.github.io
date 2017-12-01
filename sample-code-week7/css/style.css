@@ -1,0 +1,176 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato", Lato, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+h1 {
+	color: #dd0000;
+}
+
+a {
+	color: #dd0000;
+	text-decoration: none;
+}
+
+header {
+	padding: 2em 0;
+}
+
+nav {
+	text-align: center;
+	background-color: #333333;
+}
+
+nav a {
+	color: #ffffff;
+	display: block;
+	width: 16.6666%;
+	float: left;
+	padding: .5em 0;
+}
+
+nav a:hover {
+	background-color: #dd0000;
+}
+
+main {
+	width: 66.6666%;
+	float: left;
+}
+
+article {
+	padding: 1em 0;
+}
+
+article + article {
+	border-top: 1px solid #ccc;
+}
+
+aside {
+	padding-top: 1em;
+	float: right;
+	width: 30%;
+}
+
+ul {
+	padding-left: 1em;
+}
+
+footer {
+	clear: both;
+	background-color: #eeeeee;
+	padding: 1em;
+}
+
+footer p {
+	float: right;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+#wrapper {
+	width: 85%	;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mobile {
+	display: none;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+}
+
+@media only screen and (min-width: 1800px) {
+	body {
+		font-size: 24px;
+	}
+	#wrapper {
+		width: 1600px;
+	}
+}
+
+@media only screen and (max-width: 1130px) {
+	footer p {
+		float: none;
+	}
+	footer {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	body {
+		font-size: 18px;
+	}
+
+	main {
+		width: 55%;
+	}
+
+	aside {	
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	body {
+		font-size: 16px;
+	}
+
+	main, aside {
+		width: auto;
+		float: none;
+	}
+	
+	aside ul, aside img, aside h5:nth-of-type(2) {
+		display: none;
+	}
+}
+@media only screen and (max-width: 660px) {
+	#mobile {
+		display: block;
+	}
+	
+	nav a {
+		float: none;
+		width: auto;
+		padding: .25em 0;
+		display: none;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+	
+	header {
+		padding: 0;
+		padding-bottom: 1em;
+	}
+
+	#wrapper {
+		width: auto;
+		padding: 1em;
+	}
+}
