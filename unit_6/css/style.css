@@ -53,11 +53,6 @@ h3 {
 	font-weight: 300;
 }
 
-h4 {
-	font-size: 1.5em;
-	font-weight: 300;
-}
-
 nav {
 	/*background-color: red;*/
 	float: right;
@@ -192,15 +187,20 @@ hr{
 	background-color: #f3f3f4;
 }
 
-#testimonial h4 {
-	display: inline-block;
-	margin: auto;
+#testimonial h3 {
+	padding: 2em;
 }
 
 #testimonial div {
-	width: 42%;
+/*	width: 42%;
 	float: left;
-	margin: 4em;
+	padding: 4em;*/
+}
+
+#box-quotes {
+	width: 44%;
+	margin: 0 2%;
+	float: left;
 }
 
 #testimonial p {
@@ -210,7 +210,6 @@ hr{
 #testimonial img {
 	max-width: 100px;
 	float: left;
-	margin: 1em;
 }
 
 /*Start final CTA section */
