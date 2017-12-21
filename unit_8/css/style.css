@@ -182,14 +182,18 @@ nav a:hover {
 
 /*Start interactive part*/
 
-#challenge-question {
+#testimonial-box {
 	margin: 6em auto;
 }
 
-#challenge-question h3, p {
+#testimonial-box h3, p {
 /*	background-color: red;*/
 	max-width: 25em;
 	margin: auto;
+}
+
+#testimonial-header h3 {
+	text-align: center;
 }
 
 hr{
@@ -198,29 +202,16 @@ hr{
    margin: 0.5em auto;
 }
 
-#testimonial-header h3 {
-	text-align: center;
-}
-
 #testimonial-header p {
 	font-size: 1.3em;
 	font-weight: 300;
 	line-height: 1.75em;
-	margin: 3em auto;
+	margin: 2em auto;
 	text-align: center;
 }
 
 
-
 /*Testimonial section*/
-
-#testimonial h3 {
-	padding: 2em;
-}
-
-#testimonial {
-	background-color: #f3f3f4;
-}
 
 #box-quotes {
 	width: 29%;
