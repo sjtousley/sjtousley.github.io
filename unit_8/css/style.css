@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', Sans-Serif;
+	color: #333333;
+}
+
+h2 {
+	font-size: 3.5em;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	color: #4CB8C4;
+}
+
+/*Start Nav*/
+
+header {
+	/*background-color: purple;*/
+	/*border-bottom: 1px black solid;*/
+	box-shadow: 0 2px 5px rgba(0,0,0,.09);
+	position: relative;
+}
+
+/*header p {
+	position: absolute;
+	top: 50%;
+	left: 1em;
+	transform: translateY(-50%);
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 2em;
+}*/
+
+nav {
+	/*background-color: red;*/
+	float: right;
+}
+
+nav a {
+	/*background-color: orange;*/
+	text-decoration: none;
+	font-weight: 300;
+	display: inline-block;
+	color: #333333;
+	font-size: 1.2em;
+	padding: 1.5em;
+}
+
+nav a:hover {
+	color: #4CB8C4;
+}
+
+/*Start Hero*/
+
+#hero {
+	/*background-color: yellow;*/
+	margin-top: 8em;
+}
+
+#hero-image {
+	width: 50%;
+	float: left;
+}
+
+#hero-text {
+	width: 50%;
+	float: left;
+}
+
+#hero-text h2 {
+	/*background-color: red;*/
+	margin-top: 1em;
+}
+
+#hero p {
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.75em;
+	margin: 1em 0 1.5em 0;
+	text-align: left;
+}
+
+.cta {
+	display: block;	
+	font-weight: 300;
+	background-color: #4CB8C4;
+	text-decoration: none;
+	padding: 0.75em;
+	color: #FFFFFF;
+	font-weight: 700;
+	max-width: 255px;
+	text-align: center;
+	border-radius: 0.5em;
+	box-shadow: 2px 2px 10px #333333;
+	font-size: 1.2em;
+}
+
+.cta:hover {
+	background-color: #51C4D1;
+}
+
+/*Mailchimp styling. Found instructions here - https://jessicaslaughter.co/blog/how-to-customize-the-mailchimp-signup-form-on-your-blog/*/
+
+	/* Changes the style of the overall form */
+	#mc_embed_signup {
+	    background: #f8f8f8;
+	    text-align: center;
+	}
+
+	/* Adds extra space around the input boxes */
+	#mc_embed_signup .mc-field-group {
+	    /*padding: 10px 0;*/
+	}
+
+	/* Styles the input boxes */
+	#mc_embed_signup  input {
+	    font-size: 1.2em;
+		font-family: 'Open Sans', Sans-Serif;
+		padding: 0.7em;
+	    background: #ffffff;
+	    color: #000000;
+	    width: 60%; 
+	    display: block;
+	    float: left;
+	}
+
+	/* Styles the subscribe button */
+	#mc_embed_signup .button {
+	    background-color: #4CB8C4;
+	    color: #ffffff;
+	    border-radius: 0.3em;
+	    font-size: 1.2em;
+	    font-weight: 700;
+	    box-shadow: 2px 2px 10px #333333;
+	    max-width: 35%;
+	    margin-left: 2%;
+	}
+
+	/* Styles the subscribe button when hovered*/
+	#mc_embed_signup .button:hover {
+	    background-color: #51C4D1;
+	}
+
+/*Start Social Proof bar*/
+
+#social-proof-bar {
+	background-color: #f3f3f4;
+}
+
+#social-proof-bar img {
+	display: block;
+	width: 100%;
+}
+
+/*Start interactive part*/
+
+#challenge-question {
+	margin: 6em auto;
+}
+
+#challenge-question h3, p {
+/*	background-color: red;*/
+	max-width: 25em;
+	margin: auto;
+}
+
+hr{
+   border: 1px solid #4CB8C4;
+   width: 50%;
+   margin: 0.5em auto;
+}
+
+#testimonial-header h3 {
+	text-align: center;
+}
+
+#testimonial-header p {
+	font-size: 1.3em;
+	font-weight: 300;
+	line-height: 1.75em;
+	margin: 3em auto;
+	text-align: center;
+}
+
+
+
+/*Testimonial section*/
+
+#testimonial h3 {
+	padding: 2em;
+}
+
+#testimonial {
+	background-color: #f3f3f4;
+}
+
+#box-quotes {
+	width: 29%;
+	margin: 0 2%;
+	float: left;
+}
+
+#testimonial p {
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+#testimonial img {
+	max-width: 6em;
+	margin-right: 2em;
+	float: left;
+	border-radius: 50%;
+}
+
+/*Full wrapper CTA*/
+
+#full-wrapper-cta {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.75em;
+	margin: 1em 0 1.5em 0;
+	text-align: center;
+	padding: 1em;
+}
+
+/*Mailchimp form styling for the final cta section*/
+
+	/* Changes the style of the overall form */
+	#full-wrapper-cta #mc_embed_signup {
+	    background: #f8f8f8;
+	    text-align: center;
+	}
+
+	/* Adds extra space around the input boxes */
+	#full-wrapper-cta #mc_embed_signup .mc-field-group {
+	    /*padding: 10px 0;*/
+	}
+
+	/* Styles the input boxes */
+	#full-wrapper-cta #mc_embed_signup  input {
+	    font-size: .8em;
+		font-family: 'Open Sans', Sans-Serif;
+		padding: 0.8em;
+	    background: #ffffff;
+	    color: #000000;
+	    width: 50%; 
+	    display: block;
+	    float: left;
+	    margin: 2% 0 2% 8%;
+	}
+
+	/* Styles the subscribe button */
+	#full-wrapper-cta #mc_embed_signup .button {
+	    background-color: #4CB8C4;
+	    color: #ffffff;
+	    border-radius: 0.3em;
+	    font-size: .8em;
+	    font-weight: 700;
+	    box-shadow: 2px 2px 10px #333333;
+	    max-width: 30%;
+	    margin-left: 2%;
+	}
+
+	/* Styles the subscribe button when hovered*/
+	#full-wrapper-cta #mc_embed_signup .button:hover {
+	    background-color: #51C4D1;
+	}
+
+/*Start footer section*/
+
+footer {
+	background-color: #f3f3f4;
+	text-align: center;
+	padding: 3em;
+	font-size: 0.85em;
+	color: #a2a2a2;
+}
+
+/*Responsive design code*/
+
+@media only screen and (max-width: 1240px) {
+	.wrapper {
+	margin: 0% 2%;
+}
+
+@media only screen and (max-width: 1072px) {
+	body {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 938px) {
+	/*body {
+		font-size: 12px;
+	}*/
+	h2 {
+		font-size: 2.8em;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+}
+
+/*@media only screen and (max-width: 804px) {
+	body {
+		font-size: 10px;
+	}
+}*/
+
+/*@media only screen and (max-width: 768px) {
+	#hero-text {
+	width: 100%;
+	float: none;
+	}
+
+	#hero-image {
+	width: 75%;
+	float: none;
+	margin: 0 auto;
+	display: block;
+	}
+}*/
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+
+	#hero-text {
+	width: 100%;
+	float: none;
+	}
+
+	#hero-image {
+	width: 75%;
+	float: none;
+	margin: 0 auto;
+	display: block;
+	}
+
+	nav {
+		font-size: .86em;
+		float: right;
+	}
+
+	h2 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 1.7em;
+		text-align: center;
+	}
+
+	#hero {
+	margin-top: 3em;
+	}
+
+	#hero-text p {
+		margin: 1em 1em 1.5em 1em;
+		text-align: center;
+	}
+
+	#hero-image {
+		margin-top: 7em;
+	}
+
+/*@media only screen and (max-width: 900px) {
+	body {
+		font-size: 14px;
+	}
+
+	#hero-text {
+	width: 100%;
+	float: none;
+	}
+
+	#hero-image {
+	width: 100%;
+	float: none;
+	}
+
+	.box {
+		float: none;
+		width: 80%;
+		margin: 1em auto;
+	}
+	#box-quotes {
+		float: none;
+		width: 80%;
+		margin: 1em auto;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	body {
+		font-size: 12px;
+	}
+}*/
