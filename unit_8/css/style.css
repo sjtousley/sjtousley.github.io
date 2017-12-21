@@ -304,6 +304,7 @@ footer {
 	padding: 3em;
 	font-size: 0.85em;
 	color: #a2a2a2;
+	margin-top: 8em;
 }
 
 /*Responsive design code*/
@@ -331,47 +332,39 @@ footer {
 	}
 }
 
-/*@media only screen and (max-width: 804px) {
-	body {
-		font-size: 10px;
-	}
-}*/
-
-/*@media only screen and (max-width: 768px) {
-	#hero-text {
-	width: 100%;
-	float: none;
-	}
-
-	#hero-image {
-	width: 75%;
-	float: none;
-	margin: 0 auto;
-	display: block;
-	}
-}*/
-
 @media only screen and (max-width: 768px) {
 	body {
 		font-size: 14px;
-	}
-
-	#hero-text {
-	width: 100%;
-	float: none;
-	}
-
-	#hero-image {
-	width: 75%;
-	float: none;
-	margin: 0 auto;
-	display: block;
 	}
 
 	nav {
 		font-size: .86em;
 		float: right;
 	}
+
+	#hero {
+		margin-top: 3em;
+		}
+
+	#hero-text {
+	width: 100%;
+	float: none;
+	margin: 1em 1em 1.5em 1em;
+	text-align: center;
+	}
+
+	#hero-text p {
+		margin: 1em 1em 1.5em 1em;
+		text-align: center;
+	}
+
+	#hero-image {
+		width: 75%;
+		float: none;
+		margin: 0 auto;
+		margin-top: 7em;
+		display: block;
+		}
 
 	h2 {
 		font-size: 2.5em;
@@ -383,48 +376,9 @@ footer {
 		text-align: center;
 	}
 
-	#hero {
-	margin-top: 3em;
-	}
-
-	#hero-text p {
-		margin: 1em 1em 1.5em 1em;
-		text-align: center;
-	}
-
-	#hero-image {
-		margin-top: 7em;
-	}
-
-/*@media only screen and (max-width: 900px) {
-	body {
-		font-size: 14px;
-	}
-
-	#hero-text {
-	width: 100%;
-	float: none;
-	}
-
-	#hero-image {
-	width: 100%;
-	float: none;
-	}
-
-	.box {
-		float: none;
-		width: 80%;
-		margin: 1em auto;
-	}
 	#box-quotes {
+		width: 96%;
 		float: none;
-		width: 80%;
-		margin: 1em auto;
+		padding: 2%;
 	}
 }
-
-@media only screen and (max-width: 450px) {
-	body {
-		font-size: 12px;
-	}
-}*/
