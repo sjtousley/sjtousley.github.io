@@ -188,7 +188,7 @@ nav a:hover {
 
 #testimonial-box h3, p {
 /*	background-color: red;*/
-	max-width: 25em;
+	/*max-width: 25em;*/
 	margin: auto;
 }
 
@@ -206,7 +206,8 @@ hr{
 	font-size: 1.3em;
 	font-weight: 300;
 	line-height: 1.75em;
-	margin: 2em auto;
+	margin: 1em auto;
+	margin-bottom: 4em;
 	text-align: center;
 }
 
@@ -292,10 +293,11 @@ hr{
 footer {
 	background-color: #f3f3f4;
 	text-align: center;
-	padding: 3em;
+	padding: 2em;
 	font-size: 0.85em;
 	color: #a2a2a2;
 	margin-top: 8em;
+	line-height: 2em;
 }
 
 /*Responsive design code*/
@@ -362,14 +364,18 @@ footer {
 		text-align: center;
 	}
 
-	h3 {
-		font-size: 1.7em;
-		text-align: center;
-	}
-
 	#box-quotes {
 		width: 96%;
 		float: none;
 		padding: 2%;
+	}
+
+	h3 {
+			font-size: 1.8em;
+			text-align: center;
+		}
+
+	#testimonial-header p {
+		font-size: 1.25em;
 	}
 }
