@@ -59,6 +59,11 @@ header {
 	line-height: 2em;
 }*/
 
+header img {
+	max-width: 240px;
+	margin-top: 2em;
+}
+
 nav {
 	/*background-color: red;*/
 	float: right;
@@ -328,6 +333,13 @@ footer {
 @media only screen and (max-width: 768px) {
 	body {
 		font-size: 14px;
+	}
+
+	header img {
+		max-width: 0px;
+	/*	display: block;
+		margin: auto;
+		margin-top: 2em;*/
 	}
 
 	nav {
